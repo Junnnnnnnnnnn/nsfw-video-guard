@@ -18,6 +18,14 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "resolveJsonModule": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "paths": {
+      "@app/filter": [
+        "libs/filter/src"
+      ],
+      "@app/filter/*": [
+        "libs/filter/src/*"
+      ]
+    }
   }
 }
